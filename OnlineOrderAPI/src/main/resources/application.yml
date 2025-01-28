@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/online_order_api
+    username: admin
+    password: 012345
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
